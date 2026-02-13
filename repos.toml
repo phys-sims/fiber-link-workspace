@@ -1,0 +1,42 @@
+# repos.toml
+# Workspace clones are materialized into ./deps/<name> (gitignored).
+
+[[repo]]
+name = "abcdef-testbench"
+url  = "https://github.com/phys-sims/abcdef-testbench.git"
+ref  = "main"
+
+[[repo]]
+name = "abcdef-sim"
+url  = "https://github.com/phys-sims/abcdef-sim.git"
+ref  = "main"
+
+[[repo]]
+name = "phys-pipeline"
+url  = "https://github.com/phys-sims/phys-pipeline.git"
+ref  = "main"
+
+[[repo]]
+name = "cpa-architecture"
+url  = "https://github.com/phys-sims/cpa-architecture.git"
+ref  = "main"
+
+[[repo]]
+name = ".github"
+url  = "https://github.com/phys-sims/.github.git"
+ref  = "main"
+
+[[repo]]
+name = "cookiecutter-phys"
+url  = "https://github.com/phys-sims/cookiecutter-phys.git"
+ref  = "main"
+
+[[repo]]
+name = "cookiecutter-testbench"
+url  = "https://github.com/phys-sims/cookiecutter-testbench.git"
+ref  = "main"
+
+[[repo]]
+name = "research-utils"
+url  = "https://github.com/phys-sims/research-utils.git"
+ref  = "main"
